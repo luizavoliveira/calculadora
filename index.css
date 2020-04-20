@@ -1,0 +1,66 @@
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+div{
+    background-color: #f2b6ec;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 50vh;
+} 
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #fbe5f9;
+
+}
+
+h2{
+    font-size: 30px;
+    margin: 0;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;   
+}
+
+.num{
+   font-size: 20px; 
+   border-radius: 10px;
+   background-color: #fff;
+   border: none;
+   text-align: center;
+}
+
+#botao{
+    border-radius: 10px;
+    width: 30%;
+    background-color: #d1faf2;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    text-align-last: center;
+}
+
+
+#resp{
+    border-radius: 10px;
+    background-color: #2ed67b;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px 15px;
+    border: none;
+}
+
+#result{
+    margin:0;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
